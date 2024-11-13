@@ -69,8 +69,24 @@
 ### Задание 2. Создать Service и обеспечить доступ к приложениям снаружи кластера
 
 1. Создать отдельный Service приложения из Задания 1 с возможностью доступа снаружи кластера к nginx, используя тип NodePort.
+
+**microk8s kubectl apply -f service-dep-nodeport.yaml**
+
+<img width="632" alt="svc-nodeport" src="https://github.com/user-attachments/assets/4c7bac5d-e775-4926-8df0-fc28f1eaa995">
+
 2. Продемонстрировать доступ с помощью браузера или `curl` с локального компьютера.
+
+<img width="439" alt="curl nodeport" src="https://github.com/user-attachments/assets/798539db-3c6a-4544-ad11-0fde5e5f4fef">
+
+<img width="535" alt="browser nodeport" src="https://github.com/user-attachments/assets/01fe1f5b-6b40-4410-bf21-bc97a87c1bf9">
+
+<img width="730" alt="curl nodeport multitool" src="https://github.com/user-attachments/assets/953613b9-1e20-4ed3-af77-0f8ac5b0ce45">
+
+<img width="624" alt="browser nodeport multitool" src="https://github.com/user-attachments/assets/a1c9278f-c5ed-4f2d-ab7b-ed98ffca9b08">
+
 3. Предоставить манифест и Service в решении, а также скриншоты или вывод команды п.2.
+
+[service-dep-nodeport.yaml](https://github.com/sash3939/Kubernetes4-Network/blob/main/service-dep-nodeport.yaml)
 
 ------
 
