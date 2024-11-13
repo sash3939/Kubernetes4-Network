@@ -58,9 +58,11 @@
 
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
 
-https://github.com/sash3939/Kubernetes4-Network/blob/main/deployment.yaml
+[deployment.yaml](https://github.com/sash3939/Kubernetes4-Network/blob/main/deployment.yaml)
 
+[service-dep.yaml](https://github.com/sash3939/Kubernetes4-Network/blob/main/service-dep.yaml)
 
+[pod-multitool.yaml](https://github.com/sash3939/Kubernetes4-Network/blob/main/pod-multitool.yaml)
 
 ------
 
